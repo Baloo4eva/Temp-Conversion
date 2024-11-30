@@ -6,24 +6,24 @@ body{
 }
 
 h1{
-    color:  hsl(300, 84%, 42%);
+    color:  hsl(4, 90%, 12%);
 }
 
 form{
-    background-color:rgb(26, 122, 205);
+    background-color:rgb(231, 238, 234);
     text-align: center;
     max-width: 350px;
     margin: auto;
     padding: 25px;
     border-radius: 10px;
     box-shadow: 5px 5px 15px hsl(0, 0%, 0%)
-}
 
+}
 #textBox{
     width: 50%;
     text-align: center;
     font-size: 2em;
-    border: 2px solid hsl(0, 0%, 0%, 0.8);
+    border: 2px solid hsla(0, 0%, 0%, 0.8);
     border-radius: 4px;
     margin-bottom: 15px;
 }
@@ -35,7 +35,7 @@ label{
 
 button{
     margin-top: 15px;
-    background-color: hsl(300, 84%, 42%);
+    background-color: hsl(132, 84%, 42%);
     font-size: 1.5em;
     border: none;
     padding: 10px 15px;
@@ -44,5 +44,9 @@ button{
 }
 
 button:hover{
-    background-color: hsl(136, 84%, 35%);
+    background-color: hsl(353, 84%, 35%);
+}
+#result{
+    font-size: 1.75em;
+    font-weight: bold;
 }
